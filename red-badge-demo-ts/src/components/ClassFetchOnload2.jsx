@@ -37,9 +37,6 @@ class ClassFetchOnLoad extends Component {
     ));
   }
 
-    componentDidMount() {
-        this.fetchBlogData();
-    }
 
     render() {
         return (
